@@ -1,0 +1,20 @@
+.sidebar_container {
+  border: 1px black solid;
+  padding: 50px 50px;
+  .sidebar_img img {
+    width: 120px;
+    margin-bottom: 2em;
+  }
+  .sidebar_links {
+    font-family: "Barlow", sans-serif;
+    ul {
+      list-style: none;
+      li {
+        padding-bottom: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 13px;
+      }
+    }
+  }
+}
