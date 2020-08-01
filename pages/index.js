@@ -1,5 +1,6 @@
 import Sidebar from "../components/sidebar";
 import Head from "next/head";
+import Background from "../public/assets/craftbeer2-bg.png";
 
 export default function Home() {
   return (
@@ -16,6 +17,13 @@ export default function Home() {
       </Head>
       <div className="home_container">
         <Sidebar />
+        <div
+          style={{
+            backgroundImage:
+              "url(" + `${require("../public/assets/craftbeer2-bg.png")}` + ")",
+          }}
+          className="home_content"
+        ></div>
       </div>
     </>
   );
