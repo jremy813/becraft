@@ -16,6 +16,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <Sidebar />
       <div
         style={{
           background:
@@ -23,30 +24,30 @@ export default function Home() {
         }}
         className="home_container"
       >
-        <Sidebar />
-        <div className="home_content">
-          <img className="olive_bg" src={OlivesBg} alt="olives" />
-          <section className="section1">
-            <div className="home_info">
-              <div>
-                <h1>Brewed with passion and perfection</h1>
-              </div>
-              <div>
-                <p>
-                  Lorem ipsum dolor sit amet enim. Etiam ullamcorper non felis.
-                  Maecenas malesuada elit lectus felis laoreet.
-                </p>
-              </div>
+        <section className="home_sec1">
+          <div className="home_sec1content">
+            <div>
+              <h1>Brewed With passion and perfection</h1>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet enim. etiam ullamcorper non felis.
+                Maecenas malesuada elit lectus felis laoreet
+              </p>
+            </div>
+            <div className="home_buttons">
               <div>
                 <button>About Us</button>
-                <button>Our Beers</button>
+              </div>
+              <div>
+                <button>Our beers</button>
               </div>
             </div>
-            <div className="home_img1">
-              <img src={Beer1} />
-            </div>
-          </section>
-        </div>
+          </div>
+          <div className="home_beer1">
+            <img src={Beer1} />
+          </div>
+        </section>
       </div>
     </>
   );
