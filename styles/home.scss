@@ -56,6 +56,7 @@ body {
 .home_sec2 {
   padding-left: 2rem;
   margin-top: 5rem;
+  padding-bottom: 5rem;
   .home_statistics {
     margin-bottom: 5rem;
   }
@@ -77,6 +78,10 @@ body {
   }
   .home_tradition {
     text-align: left;
+    img {
+      width: 300px;
+      height: auto;
+    }
     h1 {
       font-size: 2rem;
       font-family: "Yeseva One";

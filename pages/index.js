@@ -95,6 +95,43 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="home_sec3">
+          <h1>BREWED WITH PASSION AND PERFECTION</h1>
+          <div className="home_lager">
+            <div>
+              <img src="#" />
+            </div>
+            <div>
+              <h2>BECFRAFT</h2>
+              <h1>LAGER</h1>
+              <p>
+                Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
+                justo cursus, faucibus lorem eget, egestas eros.
+              </p>
+              <p>
+                Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
+              </p>
+              <div className="home_lagerlinks">
+                <div>
+                  <p>Extract</p>
+                  <h1>12.00%</h1>
+                </div>
+                <div>
+                  <p>Alcohol</p>
+                  <h1>5.4%</h1>
+                </div>
+                <div>
+                  <p>Gentian</p>
+                  <h1>25 IBU</h1>
+                </div>
+                <div>
+                  <p>Serving Temperature</p>
+                  <h1>5-7</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
