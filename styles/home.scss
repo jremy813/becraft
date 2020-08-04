@@ -106,3 +106,50 @@ body {
     }
   }
 }
+
+.home_sec3 {
+  margin-left: 2rem;
+  .home_sec3title {
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5.5rem;
+  }
+  h1 {
+    font-family: "Yeseva One";
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #2c8536;
+  }
+
+  .home_lager {
+    div img {
+      width: 300px;
+      height: auto;
+    }
+
+    .home_lagertext {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-family: "Yeseva One";
+      font-weight: 100;
+    }
+    p {
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 1rem;
+      width: 95%;
+    }
+    span {
+      font-family: "Barlow", sans-serif;
+      text-transform: uppercase;
+      color: #9c9590;
+      font-weight: 700;
+    }
+    .home_lagerstats div {
+      padding-bottom: 1rem;
+    }
+  }
+}
