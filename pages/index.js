@@ -2,6 +2,7 @@ import Sidebar from "../components/sidebar";
 import Head from "next/head";
 import OlivesBg from "../public/assets/craftbeer2-sectionbg4.png";
 import Beer1 from "../public/assets/craftbeer2-subheader-pic1.png";
+import Globe from "../public/assets/craftbeer2-about-pic1.png";
 
 export default function Home() {
   return (
@@ -69,6 +70,23 @@ export default function Home() {
               <h1>80%</h1>
               <p>Curabitur sed dolor</p>
               <hr />
+            </div>
+          </div>
+          <div className="home_tradition">
+            <div>
+              <img src={Globe} />
+            </div>
+            <div>
+              <h1>Swedish Tradition Since 1938</h1>
+              <p>
+                Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan,
+                massa non consectetur condimentum, diam arcu tristique nibh, nec
+                egestas diam elit at nulla. Suspendisse potenti. In non lacinia
+                risus. Nulla sit amet vestibulum magna, eget pulvinar libero.
+                Vivamus in diam turpis. In condimentum maximus tristique.
+                Pellentesque lorem augue, fermentum orci.
+              </p>
+              <button>Read More</button>
             </div>
           </div>
         </section>
