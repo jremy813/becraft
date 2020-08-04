@@ -48,6 +48,30 @@ export default function Home() {
             <img src={Beer1} />
           </div>
         </section>
+        <section className="home_sec2">
+          <div className="home_statistics">
+            <div>
+              <h1>100%</h1>
+              <p>Lacinia Hendrerit</p>
+              <hr />
+            </div>
+            <div>
+              <h1>5</h1>
+              <p>Maecenas Imperdiet ante eget</p>
+              <hr />
+            </div>
+            <div>
+              <h1>24</h1>
+              <p>Congue porta nibh a semper</p>
+              <hr />
+            </div>
+            <div>
+              <h1>80%</h1>
+              <p>Curabitur sed dolor</p>
+              <hr />
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
