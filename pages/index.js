@@ -78,14 +78,19 @@ export default function Home() {
             </div>
             <div>
               <h1>Swedish Tradition Since 1938</h1>
-              <p>
-                Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan,
-                massa non consectetur condimentum, diam arcu tristique nibh, nec
-                egestas diam elit at nulla. Suspendisse potenti. In non lacinia
-                risus. Nulla sit amet vestibulum magna, eget pulvinar libero.
-                Vivamus in diam turpis. In condimentum maximus tristique.
-                Pellentesque lorem augue, fermentum orci.
-              </p>
+              <div>
+                <p>
+                  Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan,
+                  massa non consectetur condimentum, diam arcu tristique nibh,
+                  nec egestas diam elit at nulla. Suspendisse potenti. In non
+                  lacinia risus.
+                </p>
+                <p>
+                  Nulla sit amet vestibulum magna, eget pulvinar libero. Vivamus
+                  in diam turpis. In condimentum maximus tristique
+                </p>
+                <p> Pellentesque lorem augue, fermentum orci.</p>
+              </div>
               <button>Read More</button>
             </div>
           </div>

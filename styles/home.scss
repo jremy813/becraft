@@ -19,6 +19,7 @@ body {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 1.2;
+    font-weight: 100;
   }
   p {
     display: none;
@@ -49,5 +50,54 @@ body {
   img {
     width: 320px;
     height: auto;
+  }
+}
+
+.home_sec2 {
+  padding-left: 2rem;
+  margin-top: 5rem;
+  .home_statistics {
+    margin-bottom: 5rem;
+  }
+  .home_statistics div {
+    h1 {
+      font-size: 2rem;
+      color: #2c8536;
+      font-family: "Yeseva One";
+      font-weight: 100;
+    }
+    p {
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 2rem;
+    }
+    hr {
+      width: 80%;
+      color: #2c8536;
+    }
+  }
+  .home_tradition {
+    text-align: left;
+    h1 {
+      font-size: 2rem;
+      font-family: "Yeseva One";
+      font-weight: 100;
+      text-transform: uppercase;
+      width: 75%;
+      margin-bottom: 2rem;
+    }
+    div p {
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 1rem;
+      width: 95%;
+    }
+    button {
+      border-style: solid;
+      border-color: #d6c0b6;
+      color: #7a4c3c;
+      padding: 11px 20px;
+      font-family: "Barlow", sans-serif;
+      text-transform: uppercase;
+      background: none;
+    }
   }
 }
