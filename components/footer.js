@@ -2,10 +2,10 @@ import styles from "./footer.module.scss";
 
 export default function Footer() {
   return (
-    <div className="footer_container">
-      <div className="footer_links">
+    <div className={styles.footer_container}>
+      <div className={styles.footer_links}>
         <div>
-          <h1>OUR BEERS</h1>
+          <h3>OUR BEERS</h3>
           <ul>
             <li>
               <a href="#">Lager</a>
@@ -22,7 +22,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h1>ABOUT US</h1>
+          <h3>ABOUT US</h3>
           <ul>
             <li>
               <a href="#">About us</a>
@@ -39,7 +39,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h1>STAY IN TOUCH</h1>
+          <h3>STAY IN TOUCH</h3>
           <ul>
             <li>
               <a href="#">Contact us</a>
