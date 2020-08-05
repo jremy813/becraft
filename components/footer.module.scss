@@ -1,8 +1,15 @@
 .footer_container {
   padding-top: 5rem;
   background: white;
+  img {
+    width: 75%;
+    position: relative;
+    top: -110px;
+    right: -45.5px;
+  }
   .footer_links {
     padding-left: 2rem;
+    padding-top: 2rem;
     h3 {
       color: #9c9590;
       font-family: Barlow;
