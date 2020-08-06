@@ -6,6 +6,7 @@ import Globe from "../public/assets/craftbeer2-about-pic1.png";
 import Beer2 from "../public/assets/craftbeer2-product-pic1.png";
 import Beer3 from "../public/assets/craftbeer2-product-pic2.png";
 import Footer from "../components/footer";
+import Header from "../components/header";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <Header />
       <Sidebar />
       <div
         style={{
