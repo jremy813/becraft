@@ -1,8 +1,16 @@
 .navbar {
-  padding: 1rem;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  background-color: #fff;
+}
+
+.logo_menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .navbar img {
