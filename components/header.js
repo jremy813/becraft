@@ -23,13 +23,19 @@ export default function Header() {
         {clicked && (
           <ul className={styles.nav_links}>
             <li>
-              <a href="#">About</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">About us</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">Our Beers</a>
+            </li>
+            <li>
+              <a href="#">History</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
             </li>
           </ul>
         )}
