@@ -4,7 +4,6 @@ import PeopleImg from "../public/assets/craftbeer2-home-pic1.jpg";
 export default function Footer() {
   return (
     <div className={styles.footer_container}>
-      <img src={PeopleImg} />
       <div className={styles.footer_links}>
         <div>
           <h3>OUR BEERS</h3>

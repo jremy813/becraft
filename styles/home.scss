@@ -27,7 +27,7 @@ body {
   .home_buttons {
     margin: 2rem;
     display: flex;
-    margin-left: 5.5rem;
+    justify-content: center;
 
     button {
       font-family: Barlow;
@@ -114,6 +114,7 @@ body {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 5.5rem;
+    width: 95.5%;
   }
   h1 {
     font-family: "Yeseva One";
@@ -189,5 +190,19 @@ body {
     .home_pilsnerstats div {
       padding-bottom: 1rem;
     }
+  }
+}
+
+// media q
+
+@media (min-width: 516px) {
+  .home_sec1content {
+    h1 {
+      font-size: 40px;
+    }
+  }
+  .home_beer1 img {
+    width: 340px;
+    height: auto;
   }
 }
