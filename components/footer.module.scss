@@ -31,3 +31,12 @@
     font-family: Barlow;
   }
 }
+
+@media (min-width: 777px) {
+  .footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+}

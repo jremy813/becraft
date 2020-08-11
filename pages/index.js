@@ -165,9 +165,9 @@ export default function Home() {
                   <h1>6-9</h1>
                 </div>
               </div>
-              <div>
-                <img src={Beer3} />
-              </div>
+            </div>
+            <div>
+              <img src={Beer3} />
             </div>
           </div>
         </section>
