@@ -36,7 +36,7 @@ export default function Home() {
               <h1>Brewed With passion and perfection</h1>
             </div>
             <div>
-              <p>
+              <p className="home_p">
                 Lorem ipsum dolor sit amet enim. etiam ullamcorper non felis.
                 Maecenas malesuada elit lectus felis laoreet
               </p>

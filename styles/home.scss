@@ -210,6 +210,12 @@ body {
 @media (min-width: 777px) {
   .home_sec1 {
     display: flex;
+    height: 100vh;
+
+    .home_p {
+      width: 80%;
+      margin: 0 auto;
+    }
 
     p {
       display: block;
@@ -218,9 +224,11 @@ body {
       width: 95%;
       font-size: 13px;
       line-height: 1.3;
+      text-align: center;
     }
     h1 {
       font-size: 35px;
+      padding-bottom: 2rem;
     }
     img {
       width: 400px;
@@ -236,10 +244,12 @@ body {
       width: 95%;
     }
     .home_tradition {
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
       img {
         margin-right: 2.5rem;
+        width: 75%;
       }
     }
   }
@@ -250,5 +260,68 @@ body {
   .home_pilsner {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 840px) {
+  .home_sec1 {
+    padding-top: 3rem;
+    h1 {
+      font-size: 40px;
+      width: 80%;
+    }
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      text-align: left;
+      width: 450px;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 1052px) {
+  .home_sec1 {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .home_lager {
+    display: flex;
+    align-items: center;
+  }
+
+  .home_sec3 .home_lager div img {
+    width: 75%;
+    height: auto;
+  }
+
+  .home_pilsner {
+    display: flex;
+    align-items: center;
+  }
+
+  .home_sec3 .home_pilsner div img {
+    width: 75%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1281px) {
+  .home_sec1 {
+    h1 {
+      font-size: 50px;
+      width: 95%;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .home_sec1content .home_buttons button {
+    padding: 1rem;
   }
 }
