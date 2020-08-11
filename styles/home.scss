@@ -210,7 +210,6 @@ body {
 @media (min-width: 777px) {
   .home_sec1 {
     display: flex;
-    height: 100vh;
 
     .home_p {
       width: 80%;
@@ -323,5 +322,11 @@ body {
   }
   .home_sec1content .home_buttons button {
     padding: 1rem;
+  }
+}
+
+@media (min-width: 1242px) {
+  #__next {
+    display: flex;
   }
 }

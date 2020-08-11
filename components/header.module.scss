@@ -78,3 +78,9 @@
   font-size: 24px;
   color: #2c8536;
 }
+
+@media (min-width: 1242px) {
+  .navbar {
+    display: none;
+  }
+}
