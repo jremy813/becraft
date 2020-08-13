@@ -1,12 +1,23 @@
 import styles from "./header.module.scss";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { TweenLite, TimelineLite, Power3 } from "gsap";
+
+import Link from "next/link";
 
 export default function Header() {
   const [clicked, setClicked] = useState(false);
 
+  let links = useRef(null);
+  let tl = new TimelineLite();
+
   const toggleNav = () => {
     setClicked(!clicked);
+    tl.from(links, 1.2, {
+      x: -500,
+      ease: Power3.easeOut,
+    });
   };
+  tl.clear(true);
 
   return (
     <div className={styles.navbar}>
@@ -19,15 +30,19 @@ export default function Header() {
         </div>
       </div>
 
-      <nav>
+      <nav ref={(el) => (links = el)}>
         {clicked && (
           <ul className={styles.nav_links}>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About us</a>
-            </li>
+            <Link href="/">
+              <li>
+                <a href="#">Home</a>
+              </li>
+            </Link>
+            <Link href="/about">
+              <li>
+                <a href="#">About us</a>
+              </li>
+            </Link>
             <li>
               <a href="#">Our Beers</a>
             </li>

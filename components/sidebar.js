@@ -1,4 +1,5 @@
 import styles from "./sidebar.module.scss";
+import Link from "next/link";
 
 import { TweenMax, TimelineLite, Power3 } from "gsap";
 import { useRef, useEffect } from "react";
@@ -20,8 +21,12 @@ export default function Sidebar() {
       </div>
       <div ref={(el) => (links = el)} className={styles.sidebar_links}>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="/about">
+            <li>About Us</li>
+          </Link>
           <li>Our Beers</li>
           <li>History</li>
           <li>Contact</li>
