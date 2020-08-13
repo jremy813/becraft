@@ -18,8 +18,6 @@ export default function Home() {
   let tl = new TimelineLite();
 
   useEffect(() => {
-    console.log(beerimage);
-    console.log(content);
     tl.from(content, 1.2, { x: -1280, ease: Power3.easeOut });
     tl.from(beerimage, 1.2, { y: 1280, ease: Power3.easeOut });
   });
