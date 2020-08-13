@@ -1,9 +1,10 @@
 .navbar {
-  position: sticky;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
-  top: 0;
   background-color: #fff;
+  top: 0;
+  width: 100%;
 }
 
 .logo_menu {
