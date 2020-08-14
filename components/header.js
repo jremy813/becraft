@@ -19,6 +19,7 @@ export default function Header() {
   };
   tl.clear(true);
 
+  useEffect(() => {});
   return (
     <div className={styles.navbar}>
       <div className={styles.logo_menu}>
