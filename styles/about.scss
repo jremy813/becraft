@@ -1,6 +1,15 @@
+.about_background {
+  padding-top: 13rem;
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
 .about_sec1 {
+  height: 95vh;
   text-align: center;
   padding-top: 10rem;
+
   h1 {
     font-family: "Yeseva One";
     font-weight: 100;
@@ -52,6 +61,7 @@
   padding-left: 2rem;
   margin-top: 3rem;
   span {
+    display: block;
     font-family: "Barlow", sans-serif;
     color: #9c9590;
   }
@@ -114,5 +124,41 @@
     font-family: "Barlow", sans-serif;
     text-transform: uppercase;
     background: none;
+  }
+}
+
+// media q
+
+@media (min-width: 777px) {
+  .about_sec1 {
+    display: flex;
+    h1 {
+      font-size: 3rem;
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+
+    .about_background {
+      display: block;
+    }
+  }
+  .about_sec2 {
+    margin-top: 4rem;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    img {
+      width: 100%;
+    }
+  }
+  .about_sec4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    img {
+      width: 100%;
+    }
   }
 }

@@ -9,6 +9,7 @@ import Person3 from "../public/assets/craftbeer2-about-pic4.jpg";
 import Person4 from "../public/assets/craftbeer2-about-pic5.jpg";
 import Beer1 from "../public/assets/craftbeer2-subheader-pic1.png";
 import Person5 from "../public/assets/craftbeer2-about-pic6.png";
+import Background from "../public/assets/craftbeer2-slider-pic2.png";
 
 export default function About() {
   return (
@@ -35,6 +36,7 @@ export default function About() {
         <section className="about_sec1">
           <div>
             <h1>A FEW WORDS ABOUT US</h1>
+            <img className="about_background" src={Background} />
           </div>
           <div className="about_img1">
             <img src={Beer1} />
