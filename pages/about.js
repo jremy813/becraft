@@ -103,7 +103,9 @@ export default function About() {
               </p>
             </div>
           </div>
-          <button>CONTACT WITH US</button>
+          <div className="about_sec3btn">
+            <button>CONTACT WITH US</button>
+          </div>
         </section>
         <section className="about_sec4">
           <div>
