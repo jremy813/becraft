@@ -5,6 +5,9 @@ import Sidebar from "../components/sidebar";
 import Header from "../components/header";
 import Beer2 from "../public/assets/craftbeer2-product-pic1.png";
 import Beer3 from "../public/assets/craftbeer2-product-pic2.png";
+import Beer4 from "../public/assets/craftbeer2-product-pic3.png";
+import Beer5 from "../public/assets/craftbeer2-product-pic4.png";
+import Footer from "../components/footer";
 
 export default function Beers() {
   return (
@@ -109,7 +112,77 @@ export default function Beers() {
               <img src={Beer3} />
             </div>
           </div>
+
+          <div className="beers_porter">
+            <div>
+              <img src={Beer4} />
+            </div>
+            <div>
+              <h2>BECFRAFT</h2>
+              <h1 className="beers_portertext">PILSNER</h1>
+              <p>
+                Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
+                justo cursus, faucibus lorem eget, egestas eros.
+              </p>
+              <p>
+                Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
+              </p>
+              <div className="beers_porterstats">
+                <div>
+                  <span>Extract</span>
+                  <h1>11.00%</h1>
+                </div>
+                <div>
+                  <span>Alcohol</span>
+                  <h1>4.8%</h1>
+                </div>
+                <div>
+                  <span>Gentian</span>
+                  <h1>20 IBU</h1>
+                </div>
+                <div>
+                  <span>Serving Temperature</span>
+                  <h1>6-9</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="beers_weizen">
+            <div>
+              <h2>BECFRAFT</h2>
+              <h1 className="beers_weizentext">PILSNER</h1>
+              <p>
+                Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
+                justo cursus, faucibus lorem eget, egestas eros.
+              </p>
+              <p>
+                Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
+              </p>
+              <div className="beers_weizenstats">
+                <div>
+                  <span>Extract</span>
+                  <h1>11.00%</h1>
+                </div>
+                <div>
+                  <span>Alcohol</span>
+                  <h1>4.8%</h1>
+                </div>
+                <div>
+                  <span>Gentian</span>
+                  <h1>20 IBU</h1>
+                </div>
+                <div>
+                  <span>Serving Temperature</span>
+                  <h1>6-9</h1>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src={Beer5} />
+            </div>
+          </div>
         </section>
+        <Footer />
       </div>
     </>
   );
