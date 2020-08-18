@@ -18,3 +18,96 @@
     height: auto;
   }
 }
+
+.beers_sec2 {
+  margin-left: 2rem;
+  .beers_sec3title {
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5.5rem;
+    width: 95.5%;
+  }
+  h1 {
+    font-family: "Yeseva One";
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #2c8536;
+  }
+
+  .beers_lager {
+    div img {
+      width: 300px;
+      height: auto;
+    }
+
+    .beers_lagertext {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-family: "Yeseva One";
+      font-weight: 100;
+    }
+    p {
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 1rem;
+      width: 95%;
+    }
+    span {
+      font-family: "Barlow", sans-serif;
+      text-transform: uppercase;
+      color: #9c9590;
+      font-weight: 700;
+    }
+    .beers_lagerstats div {
+      padding-bottom: 1rem;
+      h1 {
+        color: #000;
+      }
+    }
+  }
+}
+
+.beers_pilsner {
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+  h1 {
+    font-family: "Yeseva One";
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #2c5c85;
+  }
+  div img {
+    width: 300px;
+    height: auto;
+  }
+
+  .beers_pilsnertext {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-family: "Yeseva One";
+    font-weight: 100;
+  }
+  p {
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 1rem;
+    width: 95%;
+  }
+  span {
+    font-family: "Barlow", sans-serif;
+    text-transform: uppercase;
+    color: #9c9590;
+    font-weight: 700;
+  }
+  .beers_pilsnerstats div {
+    padding-bottom: 1rem;
+    h1 {
+      color: #000;
+    }
+  }
+}
