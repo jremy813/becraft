@@ -1,6 +1,6 @@
-import Sidebar from "../components/sidebar";
 import Footer from "../components/footer";
 import Globe from "../public/assets/craftbeer2-about-pic1.png";
+import Sidebar from "../components/sidebar";
 import Header from "../components/header";
 import Head from "next/head";
 import Person1 from "../public/assets/craftbeer2-about-pic2.jpg";
