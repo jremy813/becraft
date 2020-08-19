@@ -44,9 +44,11 @@ export default function Header() {
                 <a href="#">About us</a>
               </li>
             </Link>
-            <li>
-              <a href="#">Our Beers</a>
-            </li>
+            <Link href="/beers">
+              <li>
+                <a href="#">Our Beers</a>
+              </li>
+            </Link>
             <li>
               <a href="#">History</a>
             </li>
