@@ -119,7 +119,7 @@ export default function Beers() {
             </div>
             <div>
               <h2>BECFRAFT</h2>
-              <h1 className="beers_portertext">PILSNER</h1>
+              <h1 className="beers_portertext">PORTER</h1>
               <p>
                 Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
                 justo cursus, faucibus lorem eget, egestas eros.
@@ -150,7 +150,7 @@ export default function Beers() {
           <div className="beers_weizen">
             <div>
               <h2>BECFRAFT</h2>
-              <h1 className="beers_weizentext">PILSNER</h1>
+              <h1 className="beers_weizentext">WEIZEN</h1>
               <p>
                 Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
                 justo cursus, faucibus lorem eget, egestas eros.

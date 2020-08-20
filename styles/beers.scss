@@ -13,9 +13,12 @@
   }
 
   img {
-    margin-top: 2rem;
-    width: 350px;
+    margin-top: 4rem;
+    width: 100%;
     height: auto;
+  }
+  .beers_background {
+    display: none;
   }
 }
 
@@ -46,7 +49,7 @@
 
   .beers_lager {
     div img {
-      width: 300px;
+      width: 100%;
       height: auto;
     }
 
@@ -89,7 +92,7 @@
     color: #2c5c85;
   }
   div img {
-    width: 300px;
+    width: 100%;
     height: auto;
   }
 
@@ -131,7 +134,7 @@
     color: #8e3600;
   }
   div img {
-    width: 300px;
+    width: 100%;
     height: auto;
   }
 
@@ -174,7 +177,7 @@
     color: #8e3600;
   }
   div img {
-    width: 300px;
+    width: 100%;
     height: auto;
     margin-top: 3rem;
   }
@@ -204,5 +207,43 @@
     h1 {
       color: #000;
     }
+  }
+}
+
+//media q
+
+@media (min-width: 777px) {
+  .beers_sec1 {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-size: 2.5rem;
+    }
+    .beers_background {
+      display: block;
+      padding-left: 1rem;
+    }
+  }
+
+  .beers_sec2 {
+    .beers_sec2title {
+      font-size: 2.5rem;
+    }
+  }
+  .beers_lager {
+    display: flex;
+    align-items: center;
+  }
+  .beers_porter {
+    display: flex;
+    align-items: center;
+  }
+  .beers_pilsner {
+    display: flex;
+    align-items: center;
+  }
+  .beers_weizen {
+    display: flex;
+    align-items: center;
   }
 }
