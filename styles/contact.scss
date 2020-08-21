@@ -1,5 +1,4 @@
 .contact_sec1 {
-  height: 95vh;
   text-align: center;
   padding-top: 10rem;
 
@@ -21,7 +20,7 @@
 
 .contact_sec2 {
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 14rem;
   h1 {
     font-family: "Yeseva One";
     font-size: 2rem;
@@ -94,4 +93,8 @@
       border: 1px solid;
     }
   }
+}
+
+//media q
+@media (min-width: 777px) {
 }
