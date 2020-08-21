@@ -30,7 +30,9 @@ export default function Sidebar() {
           <Link href="/beers">
             <li>Our Beers</li>
           </Link>
-          <li>Contact</li>
+          <Link href="/contact">
+            <li>Contact</li>
+          </Link>
         </ul>
       </div>
     </div>
