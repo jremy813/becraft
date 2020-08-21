@@ -41,7 +41,7 @@ function Contact() {
         </section>
         <section className="contact_sec2">
           <h1>LEVEL 13, 2 ELIZABETH ST, MELBOURNE, VICTORIA 3000, AUSTRALIA</h1>
-          <div className="contanct_icons">
+          <div className="contact_icons">
             <div>
               <img src={Email} />
               <h2>E-MAIL</h2>

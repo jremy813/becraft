@@ -97,4 +97,33 @@
 
 //media q
 @media (min-width: 777px) {
+  .contact_sec1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .contact_sec2 {
+    margin-top: 6rem;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5rem;
+      width: 75%;
+    }
+  }
+  .contact_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 95%;
+    margin: 0 auto;
+
+    img {
+      width: 150px;
+      height: auto;
+    }
+  }
+  .contact_sec3 form {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
 }
