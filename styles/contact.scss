@@ -24,7 +24,6 @@
   margin-top: 7rem;
   h1 {
     font-family: "Yeseva One";
-    font-weight: 100;
     font-size: 2rem;
     width: 95%;
     margin: 0 auto;
@@ -57,4 +56,42 @@
 .contact_sec3 {
   text-align: center;
   padding-top: 2rem;
+  h1 {
+    font-size: 2rem;
+    font-family: "Yeseva One";
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    input {
+      margin-bottom: 1rem;
+      width: 100%;
+      border-color: #d4c5bc;
+      color: #9c9590;
+      padding: 10px;
+      background: none;
+      font-family: "Barlow", sans-serif;
+      border: 1px solid;
+    }
+    textarea {
+      margin-bottom: 1rem;
+      width: 100%;
+      height: 200px;
+      border-color: #d4c5bc;
+      color: #9c9590;
+      background: none;
+      padding: 10px;
+      font-family: "Barlow", sans-serif;
+      border: 1px solid;
+    }
+    button {
+      color: #2c8536;
+      border-color: #2c8536;
+      padding: 1rem;
+      background: none;
+      border: 1px solid;
+    }
+  }
 }

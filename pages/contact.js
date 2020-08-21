@@ -7,6 +7,7 @@ import Email from "../public/assets/craftbeer2-contact-icon1.png";
 import Phone from "../public/assets/craftbeer2-contact-icon2.png";
 import Clock from "../public/assets/craftbeer2-contact-icon3.png";
 import Social from "../public/assets/craftbeer2-contact-icon4.png";
+import Footer from "../components/footer";
 
 function Contact() {
   return (
@@ -67,7 +68,15 @@ function Contact() {
         </section>
         <section className="contact_sec3">
           <h1>SEND US A MESSAGE</h1>
+          <form>
+            <input placeholder="Your name" />
+            <input placeholder="Your e-mail" />
+            <input placeholder="Subject" />
+            <textarea placeholder="Message"></textarea>
+            <button>Send A Message</button>
+          </form>
         </section>
+        <Footer />
       </div>
     </>
   );
