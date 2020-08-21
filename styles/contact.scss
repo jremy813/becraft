@@ -18,3 +18,43 @@
     height: auto;
   }
 }
+
+.contact_sec2 {
+  text-align: center;
+  margin-top: 7rem;
+  h1 {
+    font-family: "Yeseva One";
+    font-weight: 100;
+    font-size: 2rem;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  img {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-family: "Barlow", sans-serif;
+  }
+
+  p {
+    margin-bottom: 4rem;
+    font-family: "Barlow", sans-serif;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover {
+    color: #333;
+  }
+}
+
+.contact_sec3 {
+  text-align: center;
+  padding-top: 2rem;
+}
