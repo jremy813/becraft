@@ -50,9 +50,6 @@ export default function Header() {
               </li>
             </Link>
             <li>
-              <a href="#">History</a>
-            </li>
-            <li>
               <a href="#">Contact</a>
             </li>
           </ul>

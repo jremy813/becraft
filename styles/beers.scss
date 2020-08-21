@@ -248,3 +248,13 @@
     align-items: center;
   }
 }
+
+@media (min-width: 994px) {
+  .beers_sec1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
