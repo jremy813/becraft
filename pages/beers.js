@@ -8,8 +8,22 @@ import Beer3 from "../public/assets/craftbeer2-product-pic2.png";
 import Beer4 from "../public/assets/craftbeer2-product-pic3.png";
 import Beer5 from "../public/assets/craftbeer2-product-pic4.png";
 import Footer from "../components/footer";
+import { TweenMax, TimelineLite, Power3 } from "gsap";
+import { useRef, useEffect } from "react";
 
 export default function Beers() {
+  let beerImage = useRef(null);
+  let content = useRef(null);
+  let lagerBg = useRef(null);
+
+  let tl = new TimelineLite();
+
+  useEffect(() => {
+    tl.from(content, 1.2, { x: -1280, ease: Power3.easeOut });
+    tl.from(beerImage, 1.2, { y: 1280, ease: Power3.easeOut });
+    tl.from(lagerBg, 1.2, { x: -1280, ease: Power3.easeOut });
+  });
+
   return (
     <>
       <Head>
@@ -33,10 +47,16 @@ export default function Beers() {
       >
         <section className="beers_sec1">
           <div>
-            <h1>BREWED WITH PASSION AND PERFECTION</h1>
-            <img className="beers_background" src={Background} />
+            <h1 ref={(el) => (content = el)}>
+              BREWED WITH PASSION AND PERFECTION
+            </h1>
+            <img
+              ref={(el) => (lagerBg = el)}
+              className="beers_background"
+              src={Background}
+            />
           </div>
-          <div className="beers_img1">
+          <div ref={(el) => (beerImage = el)} className="beers_img1">
             <img src={Beer1} />
           </div>
         </section>

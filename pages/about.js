@@ -11,7 +11,22 @@ import Beer1 from "../public/assets/craftbeer2-subheader-pic1.png";
 import Person5 from "../public/assets/craftbeer2-about-pic6.png";
 import Background from "../public/assets/craftbeer2-slider-pic2.png";
 
+import { TweenMax, TimelineLite, Power3 } from "gsap";
+import { useRef, useEffect } from "react";
+
 export default function About() {
+  let beerImage = useRef(null);
+  let content = useRef(null);
+  let lagerBg = useRef(null);
+
+  let tl = new TimelineLite();
+
+  useEffect(() => {
+    tl.from(content, 1.2, { x: -1280, ease: Power3.easeOut });
+    tl.from(beerImage, 1.2, { y: 1280, ease: Power3.easeOut });
+    tl.from(lagerBg, 1.2, { x: -1280, ease: Power3.easeOut });
+  });
+
   return (
     <>
       <Head>
@@ -34,11 +49,15 @@ export default function About() {
         className="about_container"
       >
         <section className="about_sec1">
-          <div>
+          <div ref={(el) => (content = el)}>
             <h1>A FEW WORDS ABOUT US</h1>
-            <img className="about_background" src={Background} />
+            <img
+              ref={(el) => (lagerBg = el)}
+              className="about_background"
+              src={Background}
+            />
           </div>
-          <div className="about_img1">
+          <div ref={(el) => (beerImage = el)} className="about_img1">
             <img src={Beer1} />
           </div>
         </section>

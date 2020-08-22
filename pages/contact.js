@@ -9,7 +9,20 @@ import Clock from "../public/assets/craftbeer2-contact-icon3.png";
 import Social from "../public/assets/craftbeer2-contact-icon4.png";
 import Footer from "../components/footer";
 
+import { TweenMax, TimelineLite, Power3 } from "gsap";
+import { useRef, useEffect } from "react";
+
 function Contact() {
+  let beerImage = useRef(null);
+  let content = useRef(null);
+
+  let tl = new TimelineLite();
+
+  useEffect(() => {
+    tl.from(content, 1.2, { x: -1280, ease: Power3.easeOut });
+    tl.from(beerImage, 1.2, { y: 1280, ease: Power3.easeOut });
+  });
+
   return (
     <>
       <Head>
@@ -32,10 +45,10 @@ function Contact() {
         className="about_container"
       >
         <section className="contact_sec1">
-          <div>
+          <div ref={(el) => (content = el)}>
             <h1>OUR HISTORY & TRADITION</h1>
           </div>
-          <div className="contact_img1">
+          <div ref={(el) => (beerImage = el)} className="contact_img1">
             <img src={Beer1} />
           </div>
         </section>
