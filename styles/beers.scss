@@ -5,7 +5,7 @@
   h1 {
     font-family: "Yeseva One";
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 3.5rem;
 
     width: 95%;
     margin: 0 auto;
@@ -214,11 +214,15 @@
 @media (min-width: 777px) {
   .beers_sec1 {
     display: flex;
-    align-items: center;
-    padding-top: 2rem;
+
     h1 {
-      font-size: 2.5rem;
+      margin-bottom: 12rem;
     }
+
+    .beers_img1 {
+      margin-top: 0;
+    }
+
     .beers_background {
       display: block;
       padding-left: 1rem;
