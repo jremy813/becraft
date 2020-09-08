@@ -10,7 +10,9 @@ import Beer5 from "../public/assets/craftbeer2-product-pic4.png";
 import Footer from "../components/footer";
 import { TweenMax, TimelineLite, Power3 } from "gsap";
 import { useRef, useEffect } from "react";
+import CSSPlugin from "gsap/CSSPlugin";
 
+const C = CSSPlugin; // here is the gotcha....
 export default function Beers() {
   let beerImage = useRef(null);
   let content = useRef(null);

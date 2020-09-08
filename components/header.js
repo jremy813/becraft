@@ -4,6 +4,10 @@ import { TweenLite, TimelineLite, Power3 } from "gsap";
 
 import Link from "next/link";
 
+import CSSPlugin from "gsap/CSSPlugin";
+
+const C = CSSPlugin; // here is the gotcha....
+
 export default function Header() {
   const [clicked, setClicked] = useState(false);
 

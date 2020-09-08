@@ -10,7 +10,9 @@ import Header from "../components/header";
 
 import { TweenMax, TimelineLite, Power3 } from "gsap";
 import { useRef, useEffect } from "react";
+import CSSPlugin from "gsap/CSSPlugin";
 
+const C = CSSPlugin; // here is the gotcha....
 export default function Home() {
   let beerimage = useRef(null);
   let content = useRef(null);

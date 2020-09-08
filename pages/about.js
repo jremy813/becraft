@@ -13,7 +13,9 @@ import Background from "../public/assets/craftbeer2-slider-pic2.png";
 
 import { TweenMax, TimelineLite, Power3 } from "gsap";
 import { useRef, useEffect } from "react";
+import CSSPlugin from "gsap/CSSPlugin";
 
+const C = CSSPlugin; // here is the gotcha....
 export default function About() {
   let beerImage = useRef(null);
   let content = useRef(null);
