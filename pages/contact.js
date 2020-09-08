@@ -9,11 +9,8 @@ import Clock from "../public/assets/craftbeer2-contact-icon3.png";
 import Social from "../public/assets/craftbeer2-contact-icon4.png";
 import Footer from "../components/footer";
 
-import { TweenMax, TimelineLite, Power3 } from "gsap";
+import { TweenMax, TimelineLite, Power3 } from "gsap/dist/gsap";
 import { useRef, useEffect } from "react";
-import CSSPlugin from "gsap/CSSPlugin";
-
-const C = CSSPlugin; // here is the gotcha....
 function Contact() {
   let beerImage = useRef(null);
   let content = useRef(null);

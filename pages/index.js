@@ -8,11 +8,9 @@ import Beer3 from "../public/assets/craftbeer2-product-pic2.png";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
-import { TweenMax, TimelineLite, Power3 } from "gsap";
+import { TweenMax, TimelineLite, Power3 } from "gsap/dist/gsap";
 import { useRef, useEffect } from "react";
-import CSSPlugin from "gsap/CSSPlugin";
 
-const C = CSSPlugin; // here is the gotcha....
 export default function Home() {
   let beerimage = useRef(null);
   let content = useRef(null);

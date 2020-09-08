@@ -1,11 +1,9 @@
 import styles from "./sidebar.module.scss";
 import Link from "next/link";
 
-import { TweenMax, TimelineLite, Power3 } from "gsap";
+import { TweenMax, TimelineLite, Power3 } from "gsap/dist/gsap";
 import { useRef, useEffect } from "react";
-import CSSPlugin from "gsap/CSSPlugin";
 
-const C = CSSPlugin; // here is the gotcha....
 export default function Sidebar() {
   let image = useRef(null);
   let links = useRef(null);

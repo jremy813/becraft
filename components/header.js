@@ -1,12 +1,9 @@
 import styles from "./header.module.scss";
 import React, { useState, useEffect, useRef } from "react";
-import { TweenLite, TimelineLite, Power3 } from "gsap";
+
+import { TweenMax, TimelineLite, Power3 } from "gsap/dist/gsap";
 
 import Link from "next/link";
-
-import CSSPlugin from "gsap/CSSPlugin";
-
-const C = CSSPlugin; // here is the gotcha....
 
 export default function Header() {
   const [clicked, setClicked] = useState(false);
